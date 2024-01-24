@@ -1,0 +1,22 @@
+.theme-light {
+    --color-primary: #ffffff;
+    --color-badge: #f6f6f6;
+    --title-color: #2A2A2A;
+    --text-color: #707070;
+    --theme-switch-background:#E0E0E0;
+    --theme-switch-btn-color:#ffffff;
+    --device-buttons-color: #E7E7E7;
+    --device-border-color: #F5F5F5;
+    --card-color-blur: #ffffffec;
+}
+.theme-dark {
+    --color-primary: #2A2A2A;
+    --color-badge: #3D3D3D;
+    --title-color: #ffffff;
+    --text-color: #BDBDBD;
+    --theme-switch-background:#414141;
+    --theme-switch-btn-color:#141414;
+    --device-buttons-color: #3F3F3F;
+    --device-border-color: #2D2D2D;
+    --card-color-blur: #2a2a2af1;
+}
