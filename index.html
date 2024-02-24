@@ -1,212 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Front-end Developer (Ivan Bas)</title>
-  <link rel="shortcut icon" href="./images/icons/fav-icon.png" />
-  <link rel="stylesheet" href="css/style.min.css">
-  <script defer src="js/main.js"></script>
+	<title>Portfolio Front-end Developer (Ivan Bas)</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240224213042">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfolio wordpress developer Ivan Bas.">
+	<meta name="keywords" content="Ivan Bas, Developer, Wordpress, Portfolio">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://vanbasx.github.io/Portfolio/">
+	<meta property="og:title" content="Portfolio Front-end Developer (Ivan Bas)">
+	<meta property="og:description" content="Hello, my name is Ivan Bas. I am a front-end developer, and i'm create responsive websites using html, css, js and wordpress.">
+	<meta property="og:image" content="img/content/portfolio.jpg">
 </head>
+
 <body>
-  <header class="header" id="header">
-    <div class="header__container">
-      <div class="header__navigation">
-        <a href="https://github.com/vanbasx" class="header__logo"><img src="./images/icons/logo.svg" class="header__logo-img" alt="logo"></a>
-        <nav class="header__menu menu">
-          <ul class="menu__body">
-            <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
-            <li class="menu__item"><a href="#work" class="menu__link">Work</a></li>
-            <li class="menu__item"><a href="#more" class="menu__link">More</a></li>
-            <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="header__buttons">
-          <div class="header__theme-switcher">
-            <label id="switch" for="slider" class="switch">
-              <input type="checkbox" onchange="toggleTheme()" id="slider" name="slider">
-              <span class="slider round"></span>
-            </label>
-          </div>
-          <div class="menu-icon">
-            <span></span><span></span><span></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <div class="wrapper">
-    <main class="main">
-      <section class="introduction" id="about">
-        <div class="introduction__container">
-          <h1 class="introduction__title title">Hello, my name is Ivan Bas</h1>
-          <p class="introduction__subtitle subtitle">I am a front-end developer, and i'm create responsive websites using html, css, js and wordpress.</p>
-          <div class="introduction__links">
-            <a href="./CV-Ivan-Bas-Frontend-developer.txt" class="introduction__link-cv btn" download>Download CV</a>
-            <a href="#more" class="introduction__link-discover link">Discover my works<svg class="arrow" width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.75 1C6.75 0.585786 6.41421 0.25 6 0.25C5.58579 0.25 5.25 0.585786 5.25 1H6.75ZM5.46967 15.5303C5.76256 15.8232 6.23744 15.8232 6.53033 15.5303L11.3033 10.7574C11.5962 10.4645 11.5962 9.98959 11.3033 9.6967C11.0104 9.40381 10.5355 9.40381 10.2426 9.6967L6 13.9393L1.75736 9.6967C1.46447 9.40381 0.989592 9.40381 0.696699 9.6967C0.403806 9.98959 0.403806 10.4645 0.696699 10.7574L5.46967 15.5303ZM5.25 1L5.25 15H6.75L6.75 1H5.25Z" fill="white"/></svg></a>
-          </div>
-          <div class="introduction__ticker">
-            <div class="introduction__ticker-wrap">
-              <div class="introduction__ticker-item"><img src="./images/content/1.svg" alt=""></div>
-              <div class="introduction__ticker-item"><img src="./images/content/2.svg" alt=""></div>
-              <div class="introduction__ticker-item"><img src="./images/content/3.svg" alt=""></div>
-              <div class="introduction__ticker-item"><img src="./images/content/4.svg" alt=""></div>
-              <div class="introduction__ticker-item"><img src="./images/content/5.svg" alt=""></div>
-              <div class="introduction__ticker-item"><img src="./images/content/6.svg" alt=""></div>
-              <div class="introduction__ticker-item"><img src="./images/content/7.svg" alt=""></div>
-              <div class="introduction__ticker-item"><img src="./images/content/8.svg" alt=""></div>
-              <div class="introduction__ticker-item"><img src="./images/content/9.svg" alt=""></div>
-              <div class="introduction__ticker-item"><img src="./images/content/10.svg" alt=""></div>
-              <div class="introduction__ticker-dublicate">
-                <div class="introduction__ticker-item"><img src="./images/content/1.svg" alt=""></div>
-                <div class="introduction__ticker-item"><img src="./images/content/2.svg" alt=""></div>
-                <div class="introduction__ticker-item"><img src="./images/content/3.svg" alt=""></div>
-                <div class="introduction__ticker-item"><img src="./images/content/4.svg" alt=""></div>
-                <div class="introduction__ticker-item"><img src="./images/content/5.svg" alt=""></div>
-                <div class="introduction__ticker-item"><img src="./images/content/6.svg" alt=""></div>
-                <div class="introduction__ticker-item"><img src="./images/content/7.svg" alt=""></div>
-                <div class="introduction__ticker-item"><img src="./images/content/8.svg" alt=""></div>
-                <div class="introduction__ticker-item"><img src="./images/content/9.svg" alt=""></div>
-                <div class="introduction__ticker-item"><img src="./images/content/10.svg" alt=""></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="tablet" id="work">
-        <div class="tablet__container">
-          <span class="tablet__badge badge">Mobile App</span>
-          <h2 class="tablet__title title">Project title</h2>
-          <p class="tablet__subtitle subtitle">You can add what outcomes has this project brought after your design! For example, can show some real data.</p>
-          <div class="tablet__buttons">
-            <a href="https://vanbasx.github.io/Landing-SpendIn/" class="tablet__button-demo btn">Demo</a>
-            <a href="https://github.com/vanbasx/Landing-SpendIn" class="tablet__button-code link">View code<svg class="arrow" width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.75 1C6.75 0.585786 6.41421 0.25 6 0.25C5.58579 0.25 5.25 0.585786 5.25 1H6.75ZM5.46967 15.5303C5.76256 15.8232 6.23744 15.8232 6.53033 15.5303L11.3033 10.7574C11.5962 10.4645 11.5962 9.98959 11.3033 9.6967C11.0104 9.40381 10.5355 9.40381 10.2426 9.6967L6 13.9393L1.75736 9.6967C1.46447 9.40381 0.989592 9.40381 0.696699 9.6967C0.403806 9.98959 0.403806 10.4645 0.696699 10.7574L5.46967 15.5303ZM5.25 1L5.25 15H6.75L6.75 1H5.25Z" fill="white"/></svg></a>
-          </div>
-          <div class="tablet__ipad">
-            <div class="tablet__ipad-content">
-              <img class="tablet__ipad-img" src="./images/content/123.webp" alt="">
-            </div>
-          </div>
-          <div class="shade"></div>
-        </div>
-      </section>
-      <section class="phone">
-        <div class="phone__container">
-          <div class="phone__iphone-wrapper">
-            <div class="phone__iphone">
-              <div class="phone__iphone-content">
-                <div class="phone__iphone-notch"></div>
-                <img class="phone__iphone-img" src="./images/content/image.webp" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="phone__info">
-            <h2 class="phone__title title">Project title</h2>
-            <span class="phone__badge badge">Mobile App</span>
-            <p class="phone__subtitle subtitle">You can add what outcomes has this project brought after your design! For example, can show some real data.</p>
-            <div class="phone__buttons">
-              <a href="" class="phone__button-demo btn">Demo</a>
-              <a href="" class="phone__button-code link">View code<svg class="arrow" width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.75 1C6.75 0.585786 6.41421 0.25 6 0.25C5.58579 0.25 5.25 0.585786 5.25 1H6.75ZM5.46967 15.5303C5.76256 15.8232 6.23744 15.8232 6.53033 15.5303L11.3033 10.7574C11.5962 10.4645 11.5962 9.98959 11.3033 9.6967C11.0104 9.40381 10.5355 9.40381 10.2426 9.6967L6 13.9393L1.75736 9.6967C1.46447 9.40381 0.989592 9.40381 0.696699 9.6967C0.403806 9.98959 0.403806 10.4645 0.696699 10.7574L5.46967 15.5303ZM5.25 1L5.25 15H6.75L6.75 1H5.25Z" fill="white"/></svg></a>
-            </div>
-          </div>
-          <div class="shade"></div>
-        </div>
-      </section>
-      <section class="works" id="more">
-        <div class="works__container">
-          <h3 class="works__title title">More works</h3>
-          <div class="works__cards">
-            <div class="works__card">
-              <div class="works__card-wrapper">
-                <a href="https://vanbasx.github.io/Landing-SpendIn/" aria-label="View demo"><img src="./images/content/123.webp" alt="content img" class="works__card-img"></a>
-                <div class="works__buttons">
-                  <a href="https://vanbasx.github.io/Landing-SpendIn/" class="works__button-demo btn-empty" aria-label="View demo">Demo</a>
-                  <a href="https://github.com/vanbasx/Landing-SpendIn" class="works__button-code link" aria-label="View code">View code</a>
-                </div>
-              </div>
-              <h4 class="works__card-name">FitTracker</h4>
-              <p class="works__card-description">Stay fit and motivated with FitTracker, a fitness tracking app powered by Angular. Log your workouts, track progress, and visualize achievements through interactive charts. Elevate your fitness journey!</p>
-              <div class="works__card-badges">
-                <span class="works__card-badge badge">RWD</span>
-                <span class="works__card-badge badge">Wordpress</span>
-                <span class="works__card-badge badge">JavaScript</span>
-              </div>
-            </div>
-            <div class="works__card">
-              <div class="works__card-wrapper">
-                <a href="https://vanbasx.github.io/Landing-SpendIn/" aria-label="View demo"><img src="./images/content/123.webp" alt="content img" class="works__card-img"></a>
-                <div class="works__buttons">
-                  <a href="https://vanbasx.github.io/Landing-SpendIn/" class="works__button-demo btn-empty" aria-label="View demo">Demo</a>
-                  <a href="https://github.com/vanbasx/Landing-SpendIn" class="works__button-code link" aria-label="View code">View code</a>
-                </div>
-              </div>
-              <h4 class="works__card-name">FitTracker</h4>
-              <p class="works__card-description">Stay fit and motivated with FitTracker, a fitness tracking app powered by Angular. Log your workouts, track progress, and visualize achievements through interactive charts. Elevate your fitness journey!</p>
-              <div class="works__card-badges">
-                <span class="works__card-badge badge">RWD</span>
-                <span class="works__card-badge badge">Wordpress</span>
-                <span class="works__card-badge badge">JavaScript</span>
-              </div>
-            </div>
-            <div class="works__card">
-              <div class="works__card-wrapper">
-                <a href="https://vanbasx.github.io/Landing-SpendIn/" aria-label="View demo"><img src="./images/content/123.webp" alt="content img" class="works__card-img"></a>
-                <div class="works__buttons">
-                  <a href="https://vanbasx.github.io/Landing-SpendIn/" class="works__button-demo btn-empty" aria-label="View demo">Demo</a>
-                  <a href="https://github.com/vanbasx/Landing-SpendIn" class="works__button-code link" aria-label="View code">View code</a>
-                </div>
-              </div>
-              <h4 class="works__card-name">FitTracker</h4>
-              <p class="works__card-description">Stay fit and motivated with FitTracker, a fitness tracking app powered by Angular. Log your workouts, track progress, and visualize achievements through interactive charts. Elevate your fitness journey!</p>
-              <div class="works__card-badges">
-                <span class="works__card-badge badge">RWD</span>
-                <span class="works__card-badge badge">Wordpress</span>
-                <span class="works__card-badge badge">JavaScript</span>
-              </div>
-            </div>
-            <div class="works__card">
-              <div class="works__card-wrapper">
-                <a href="https://vanbasx.github.io/Landing-SpendIn/" aria-label="View demo"><img src="./images/content/123.webp" alt="content img" class="works__card-img"></a>
-                <div class="works__buttons">
-                  <a href="https://vanbasx.github.io/Landing-SpendIn/" class="works__button-demo btn-empty" aria-label="View demo">Demo</a>
-                  <a href="https://github.com/vanbasx/Landing-SpendIn" class="works__button-code link" aria-label="View code">View code</a>
-                </div>
-              </div>
-              <h4 class="works__card-name">FitTracker</h4>
-              <p class="works__card-description">Stay fit and motivated with FitTracker, a fitness tracking app powered by Angular. Log your workouts, track progress, and visualize achievements through interactive charts. Elevate your fitness journey!</p>
-              <div class="works__card-badges">
-                <span class="works__card-badge badge">RWD</span>
-                <span class="works__card-badge badge">Wordpress</span>
-                <span class="works__card-badge badge">JavaScript</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="contact" id="contact">
-        <div class="contact__container">
-          <div class="contact__info">
-            <h4 class="contact__info-title title">Let’s talk</h4>
-            <p class="contact__info-subtitle subtitle">I regularly post my thoughts on twitter, and also write some articles on Medium. Otherwise, my linkedin is always welcoming.</p>
-            <div class="contact__icons">
-              <a href="https://github.com/vanbasx" class="contact__icons-link" aria-label="github link"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M18 3.37012C9.7125 3.37012 3 10.0826 3 18.3701C3 25.0076 7.29375 30.6139 13.2563 32.6014C14.0063 32.7326 14.2875 32.2826 14.2875 31.8889C14.2875 31.5326 14.2688 30.3514 14.2688 29.0951C10.5 29.7889 9.525 28.1764 9.225 27.3326C9.05625 26.9014 8.325 25.5701 7.6875 25.2139C7.1625 24.9326 6.4125 24.2389 7.66875 24.2201C8.85 24.2014 9.69375 25.3076 9.975 25.7576C11.325 28.0264 13.4813 27.3889 14.3438 26.9951C14.475 26.0201 14.8688 25.3639 15.3 24.9889C11.9625 24.6139 8.475 23.3201 8.475 17.5826C8.475 15.9514 9.05625 14.6014 10.0125 13.5514C9.8625 13.1764 9.3375 11.6389 10.1625 9.57637C10.1625 9.57637 11.4188 9.18262 14.2875 11.1139C15.4875 10.7764 16.7625 10.6076 18.0375 10.6076C19.3125 10.6076 20.5875 10.7764 21.7875 11.1139C24.6563 9.16387 25.9125 9.57637 25.9125 9.57637C26.7375 11.6389 26.2125 13.1764 26.0625 13.5514C27.0188 14.6014 27.6 15.9326 27.6 17.5826C27.6 23.3389 24.0938 24.6139 20.7563 24.9889C21.3 25.4576 21.7688 26.3576 21.7688 27.7639C21.7688 29.7701 21.75 31.3826 21.75 31.8889C21.75 32.2826 22.0313 32.7514 22.7813 32.6014C25.759 31.5961 28.3466 29.6823 30.1797 27.1294C32.0128 24.5765 32.9992 21.513 33 18.3701C33 10.0826 26.2875 3.37012 18 3.37012Z" fill="white"/></svg></a>
-              <a href="https://t.me/kvartira_helper" class="contact__icons-link" aria-label="telegram link"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M33 18C33 26.2843 26.2843 33 18 33C9.71573 33 3 26.2843 3 18C3 9.71573 9.71573 3 18 3C26.2843 3 33 9.71573 33 18ZM18.5375 14.0737C17.0785 14.6805 14.1626 15.9365 9.78984 17.8417C9.07976 18.124 8.70779 18.4003 8.67393 18.6704C8.6167 19.1269 9.18836 19.3066 9.96681 19.5514C10.0727 19.5847 10.1824 19.6192 10.2949 19.6558C11.0608 19.9047 12.091 20.196 12.6266 20.2076C13.1124 20.2181 13.6546 20.0178 14.2533 19.6067C18.3389 16.8488 20.4479 15.4548 20.5804 15.4247C20.6738 15.4035 20.8032 15.3769 20.8909 15.4548C20.9786 15.5328 20.97 15.6804 20.9607 15.72C20.9041 15.9614 18.6601 18.0476 17.4989 19.1272C17.1369 19.4638 16.8801 19.7025 16.8276 19.7571C16.71 19.8792 16.5901 19.9947 16.4749 20.1058C15.7634 20.7917 15.2299 21.3061 16.5045 22.146C17.117 22.5497 17.6072 22.8834 18.0961 23.2164C18.6302 23.5801 19.1628 23.9429 19.852 24.3946C20.0276 24.5097 20.1953 24.6293 20.3586 24.7457C20.9801 25.1887 21.5384 25.5868 22.2282 25.5233C22.629 25.4864 23.043 25.1095 23.2533 23.9855C23.7502 21.329 24.727 15.5731 24.9527 13.2012C24.9725 12.9934 24.9476 12.7275 24.9277 12.6107C24.9077 12.494 24.8659 12.3276 24.7142 12.2045C24.5345 12.0587 24.257 12.0279 24.1329 12.0301C23.5687 12.0401 22.7032 12.341 18.5375 14.0737Z" fill="white"/></svg></a>
-              <a href="https://www.linkedin.com/in/ivan-bas-5052a3280/" class="contact__icons-link" aria-label="linkedin link"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M31.5 6.48529V29.5147C31.5 30.0412 31.2908 30.5462 30.9185 30.9185C30.5462 31.2908 30.0412 31.5 29.5147 31.5H6.48529C5.95876 31.5 5.45379 31.2908 5.08148 30.9185C4.70916 30.5462 4.5 30.0412 4.5 29.5147V6.48529C4.5 5.95876 4.70916 5.45379 5.08148 5.08148C5.45379 4.70916 5.95876 4.5 6.48529 4.5H29.5147C30.0412 4.5 30.5462 4.70916 30.9185 5.08148C31.2908 5.45379 31.5 5.95876 31.5 6.48529V6.48529ZM12.4412 14.8235H8.47059V27.5294H12.4412V14.8235ZM12.7985 10.4559C12.8006 10.1555 12.7435 9.85773 12.6305 9.57945C12.5175 9.30116 12.3508 9.04787 12.1399 8.83402C11.929 8.62017 11.6781 8.44996 11.4014 8.3331C11.1247 8.21624 10.8277 8.15502 10.5274 8.15294H10.4559C9.8451 8.15294 9.25934 8.39557 8.82746 8.82746C8.39557 9.25934 8.15294 9.8451 8.15294 10.4559C8.15294 11.0667 8.39557 11.6524 8.82746 12.0843C9.25934 12.5162 9.8451 12.7588 10.4559 12.7588V12.7588C10.7562 12.7662 11.0551 12.7143 11.3354 12.6062C11.6157 12.498 11.872 12.3357 12.0896 12.1285C12.3071 11.9212 12.4817 11.6732 12.6033 11.3985C12.725 11.1237 12.7913 10.8277 12.7985 10.5274V10.4559ZM27.5294 19.8106C27.5294 15.9909 25.0994 14.5059 22.6853 14.5059C21.8949 14.4663 21.1079 14.6347 20.4028 14.9942C19.6977 15.3537 19.0993 15.8917 18.6671 16.5547H18.5559V14.8235H14.8235V27.5294H18.7941V20.7715C18.7367 20.0793 18.9547 19.3925 19.4008 18.8602C19.8469 18.3279 20.485 17.9931 21.1765 17.9285H21.3274C22.59 17.9285 23.5271 18.7226 23.5271 20.7238V27.5294H27.4976L27.5294 19.8106Z" fill="white"/></svg></a>
-              <a href="https://api.whatsapp.com/send?phone=48534442455" class="contact__icons-link" aria-label="whatsapp link"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M18.0566 4.93555C10.6464 4.93555 4.61584 10.744 4.61323 17.8825C4.61148 20.1653 5.23161 22.3932 6.40742 24.3555L4.5 31.0646L11.6271 29.2643C13.6096 30.3013 15.814 30.8423 18.0514 30.8407H18.0566C25.4668 30.8407 31.4974 25.0314 31.5 17.8929C31.5017 14.4352 30.1047 11.1804 27.5658 8.73384C25.0278 6.28642 21.6528 4.93642 18.0566 4.93555ZM18.0566 28.6537H18.0523C16.0473 28.6537 14.0806 28.1346 12.3648 27.1539L11.9555 26.9205L7.72781 27.9883L8.85658 24.0167L8.59094 23.61C7.47514 21.9082 6.88117 19.9174 6.8821 17.8825C6.88471 11.9486 11.898 7.12255 18.061 7.12255C21.0449 7.12342 23.8503 8.24435 25.9606 10.2781C28.071 12.3118 29.232 15.0161 29.2303 17.8921C29.2276 23.826 24.2152 28.6537 18.0557 28.6537H18.0566ZM24.1856 20.5929C23.8494 20.4318 22.1981 19.6488 21.8897 19.5399C21.5823 19.4328 21.3585 19.3771 21.1346 19.7011C20.9116 20.0251 20.2671 20.7541 20.072 20.9692C19.8752 21.1852 19.6792 21.2113 19.343 21.0502C19.0068 20.8882 17.9242 20.5468 16.6422 19.4441C15.6432 18.5871 14.969 17.528 14.7731 17.2031C14.5771 16.88 14.7522 16.7049 14.9203 16.5438C15.0709 16.4001 15.2565 16.1667 15.4237 15.9777C15.5909 15.7887 15.6466 15.6537 15.7599 15.4377C15.8714 15.2225 15.8156 15.0327 15.7311 14.8715C15.6466 14.7087 14.976 13.1165 14.6947 12.4694C14.4229 11.8388 14.146 11.9233 13.9395 11.9129C13.7436 11.9042 13.5206 11.9015 13.295 11.9015C13.0729 11.9015 12.708 11.9825 12.3997 12.3065C12.0922 12.6305 11.2239 13.4127 11.2239 15.0048C11.2239 16.5978 12.4275 18.1359 12.5956 18.3519C12.7637 18.5671 14.9647 21.8358 18.3345 23.2381C19.1357 23.5699 19.7611 23.7694 20.2497 23.9192C21.0545 24.1656 21.787 24.1299 22.3653 24.0472C23.0098 23.954 24.3528 23.2651 24.6315 22.5099C24.912 21.7548 24.912 21.1068 24.8284 20.9718C24.7465 20.8368 24.5218 20.7558 24.1856 20.5929V20.5929Z" fill="white"/></svg></a>
-            </div>
-          </div>
-          <div class="contact__image-wrapper">
-            <img class="contact__image-img" src="./images/icons/contact.svg" alt="content img">
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__copyright">© 2024 Ivan Bas</div>
-        <a href="#header" class="footer__back-btn link">Back up<svg class="arrow" width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.75 1C6.75 0.585786 6.41421 0.25 6 0.25C5.58579 0.25 5.25 0.585786 5.25 1H6.75ZM5.46967 15.5303C5.76256 15.8232 6.23744 15.8232 6.53033 15.5303L11.3033 10.7574C11.5962 10.4645 11.5962 9.98959 11.3033 9.6967C11.0104 9.40381 10.5355 9.40381 10.2426 9.6967L6 13.9393L1.75736 9.6967C1.46447 9.40381 0.989592 9.40381 0.696699 9.6967C0.403806 9.98959 0.403806 10.4645 0.696699 10.7574L5.46967 15.5303ZM5.25 1L5.25 15H6.75L6.75 1H5.25Z" fill="white"/></svg></a>
-      </div>
-    </footer>
-  </div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="https://github.com/vanbasx" class="header__logo"><img src="img/icons/logo.svg" alt=""></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto="#about" data-goto-top="80" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="#" data-goto="#work" data-goto-top="80" class="menu__link">Work</a></li>
+							<li class="menu__item"><a href="#" data-goto="#more" data-goto-top="80" class="menu__link">More</a></li>
+							<li class="menu__item"><a href="#" data-goto="#contact" data-goto-top="80" class="menu__link">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__buttons">
+					<div class="header__theme-switcher">
+						<label id="switch" for="slider" class="switch">
+							<input type="checkbox" id="slider" name="slider">
+							<span class="slider round"></span>
+						</label>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="introduction" id="about">
+				<div class="introduction__container">
+					<h1 class="introduction__title title">Hello, my name is Ivan Bas</h1>
+					<p class="introduction__subtitle subtitle">I am a front-end developer, and i'm create responsive websites using html, css, js and wordpress.</p>
+					<div class="introduction__links">
+						<a href="./CV-Ivan-Bas-Frontend-developer.txt" class="introduction__link-cv btn" download>Download CV</a>
+						<a href="#" data-goto="#more" class="introduction__link-discover link">Discover my works<svg class="arrow" width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.75 1C6.75 0.585786 6.41421 0.25 6 0.25C5.58579 0.25 5.25 0.585786 5.25 1H6.75ZM5.46967 15.5303C5.76256 15.8232 6.23744 15.8232 6.53033 15.5303L11.3033 10.7574C11.5962 10.4645 11.5962 9.98959 11.3033 9.6967C11.0104 9.40381 10.5355 9.40381 10.2426 9.6967L6 13.9393L1.75736 9.6967C1.46447 9.40381 0.989592 9.40381 0.696699 9.6967C0.403806 9.98959 0.403806 10.4645 0.696699 10.7574L5.46967 15.5303ZM5.25 1L5.25 15H6.75L6.75 1H5.25Z" fill="white" />
+							</svg></a>
+					</div>
+					<div class="introduction__ticker">
+						<div class="introduction__ticker-wrap">
+							<div class="introduction__ticker-item"><img src="./img/content/1.svg" alt="content"></div>
+							<div class="introduction__ticker-item"><img src="./img/content/2.svg" alt="content"></div>
+							<div class="introduction__ticker-item"><img src="./img/content/3.svg" alt="content"></div>
+							<div class="introduction__ticker-item"><img src="./img/content/4.svg" alt="content"></div>
+							<div class="introduction__ticker-item"><img src="./img/content/5.svg" alt="content"></div>
+							<div class="introduction__ticker-item"><img src="./img/content/6.svg" alt="content"></div>
+							<div class="introduction__ticker-item"><img src="./img/content/7.svg" alt="content"></div>
+							<div class="introduction__ticker-item"><img src="./img/content/8.svg" alt="content"></div>
+							<div class="introduction__ticker-item"><img src="./img/content/9.svg" alt="content"></div>
+							<div class="introduction__ticker-item"><img src="./img/content/10.svg" alt="content"></div>
+							<div class="introduction__ticker-dublicate">
+								<div class="introduction__ticker-item"><img src="./img/content/1.svg" alt="content"></div>
+								<div class="introduction__ticker-item"><img src="./img/content/2.svg" alt="content"></div>
+								<div class="introduction__ticker-item"><img src="./img/content/3.svg" alt="content"></div>
+								<div class="introduction__ticker-item"><img src="./img/content/4.svg" alt="content"></div>
+								<div class="introduction__ticker-item"><img src="./img/content/5.svg" alt="content"></div>
+								<div class="introduction__ticker-item"><img src="./img/content/6.svg" alt="content"></div>
+								<div class="introduction__ticker-item"><img src="./img/content/7.svg" alt="content"></div>
+								<div class="introduction__ticker-item"><img src="./img/content/8.svg" alt="content"></div>
+								<div class="introduction__ticker-item"><img src="./img/content/9.svg" alt="content"></div>
+								<div class="introduction__ticker-item"><img src="./img/content/10.svg" alt="content"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="tablet" id="work">
+				<div class="tablet__container">
+					<span class="tablet__badge badge">Landing</span>
+					<h2 class="tablet__title title">Positivus</h2>
+					<p class="tablet__subtitle subtitle">We boost online success with SEO, PPC, social media, and content services, aiding businesses in thriving and expanding their digital presence.</p>
+					<div class="tablet__buttons">
+						<a href="https://github.com/vanbasx/Landing-Positivus" class="tablet__button-demo btn">Demo</a>
+						<a href="https://github.com/vanbasx/Landing-Positivus" class="tablet__button-code link">View code<svg class="arrow" width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.75 1C6.75 0.585786 6.41421 0.25 6 0.25C5.58579 0.25 5.25 0.585786 5.25 1H6.75ZM5.46967 15.5303C5.76256 15.8232 6.23744 15.8232 6.53033 15.5303L11.3033 10.7574C11.5962 10.4645 11.5962 9.98959 11.3033 9.6967C11.0104 9.40381 10.5355 9.40381 10.2426 9.6967L6 13.9393L1.75736 9.6967C1.46447 9.40381 0.989592 9.40381 0.696699 9.6967C0.403806 9.98959 0.403806 10.4645 0.696699 10.7574L5.46967 15.5303ZM5.25 1L5.25 15H6.75L6.75 1H5.25Z" fill="white" />
+							</svg></a>
+					</div>
+					<div class="tablet__ipad">
+						<div class="tablet__ipad-content">
+							<picture><source srcset="./img/content/positivus.webp" type="image/webp"><img class="tablet__ipad-img" src="./img/content/positivus.jpg" alt="positivus landing page"></picture>
+						</div>
+					</div>
+					<div class="shade"></div>
+				</div>
+			</section>
+			<section class="phone">
+				<div class="phone__container">
+					<div class="phone__iphone-wrapper">
+						<div class="phone__iphone">
+							<div class="phone__iphone-content">
+								<div class="phone__iphone-notch"></div>
+								<picture><source srcset="./img/content/spendin_mobile.webp" type="image/webp"><img class="phone__iphone-img" src="./img/content/spendin_mobile.jpg" alt="spendin landing page"></picture>
+							</div>
+						</div>
+					</div>
+					<div class="phone__info">
+						<h2 class="phone__title title">Spend.In</h2>
+						<span class="phone__badge badge">Landing</span>
+						<p class="phone__subtitle subtitle">Your one-stop finance empower platform. Manage all your business expenses with our supafast app.</p>
+						<div class="phone__buttons">
+							<a href="https://vanbasx.github.io/Landing-SpendIn/" class="phone__button-demo btn">Demo</a>
+							<a href="https://github.com/vanbasx/Landing-SpendIn" class="phone__button-code link">View code<svg class="arrow" width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.75 1C6.75 0.585786 6.41421 0.25 6 0.25C5.58579 0.25 5.25 0.585786 5.25 1H6.75ZM5.46967 15.5303C5.76256 15.8232 6.23744 15.8232 6.53033 15.5303L11.3033 10.7574C11.5962 10.4645 11.5962 9.98959 11.3033 9.6967C11.0104 9.40381 10.5355 9.40381 10.2426 9.6967L6 13.9393L1.75736 9.6967C1.46447 9.40381 0.989592 9.40381 0.696699 9.6967C0.403806 9.98959 0.403806 10.4645 0.696699 10.7574L5.46967 15.5303ZM5.25 1L5.25 15H6.75L6.75 1H5.25Z" fill="white" />
+								</svg></a>
+						</div>
+					</div>
+					<div class="shade"></div>
+				</div>
+			</section>
+			<section class="works" id="more">
+				<div class="works__container">
+					<h3 class="works__title title">More works</h3>
+					<div class="works__cards">
+						<div class="works__card">
+							<div class="works__card-wrapper">
+								<a href="https://vanbasx.github.io/Landing-SpendIn/" aria-label="View demo"><picture><source srcset="./img/content/positivus.webp" type="image/webp"><img src="./img/content/positivus.jpg" alt="positivus landing page" class="works__card-img"></picture></a>
+								<div class="works__buttons">
+									<a href="https://vanbasx.github.io/Landing-SpendIn/" class="works__button-demo btn-empty" aria-label="View demo">Demo</a>
+									<a href="https://github.com/vanbasx/Landing-SpendIn" class="works__button-code link" aria-label="View code">View code</a>
+								</div>
+							</div>
+							<h4 class="works__card-name">Positivus</h4>
+							<p class="works__card-description">This repository contains the source code for the LaslesVPN landing page, a responsive web page built using Gulp, Webpack, HTML, CSS (with SCSS), JavaScript, and Swiper.js for carousel functionality.</p>
+							<div class="works__card-badges">
+								<span class="works__card-badge badge">RWD</span>
+								<span class="works__card-badge badge">JavaScript</span>
+								<span class="works__card-badge badge">Gulp</span>
+								<span class="works__card-badge badge">Scss</span>
+							</div>
+						</div>
+						<div class="works__card">
+							<div class="works__card-wrapper">
+								<a href="https://vanbasx.github.io/Landing-SpendIn/" aria-label="View demo"><picture><source srcset="./img/content/spendin.webp" type="image/webp"><img src="./img/content/spendin.jpg" alt="spendin landing page" class="works__card-img"></picture></a>
+								<div class="works__buttons">
+									<a href="https://vanbasx.github.io/Landing-SpendIn/" class="works__button-demo btn-empty" aria-label="View demo">Demo</a>
+									<a href="https://github.com/vanbasx/Landing-SpendIn" class="works__button-code link" aria-label="View code">View code</a>
+								</div>
+							</div>
+							<h4 class="works__card-name">SpendIn</h4>
+							<p class="works__card-description">This repository contains the source code for the SpendIn landing page, a responsive web page built using Gulp, Webpack, HTML, CSS (with SCSS), JavaScript, Swiper.js for carousel functionality and MixlitIp.js for sorted functionality.</p>
+							<div class="works__card-badges">
+								<span class="works__card-badge badge">RWD</span>
+								<span class="works__card-badge badge">Wordpress</span>
+								<span class="works__card-badge badge">JavaScript</span>
+							</div>
+						</div>
+						<div class="works__card">
+							<div class="works__card-wrapper">
+								<a href="https://vanbasx.github.io/Landing-LaslesVPN/" aria-label="View demo"><picture><source srcset="./img/content/laslesvpn.webp" type="image/webp"><img src="./img/content/laslesvpn.jpg" alt="laslesVpn landing page" class="works__card-img"></picture></a>
+								<div class="works__buttons">
+									<a href="https://vanbasx.github.io/Landing-LaslesVPN/" class="works__button-demo btn-empty" aria-label="View demo">Demo</a>
+									<a href="https://github.com/vanbasx/Landing-LaslesVPN" class="works__button-code link" aria-label="View code">View code</a>
+								</div>
+							</div>
+							<h4 class="works__card-name">LaslesVPN</h4>
+							<p class="works__card-description">This repository contains the source code for the LaslesVPN landing page, a responsive web page built using Gulp, Webpack, HTML, CSS (with SCSS), JavaScript, and Swiper.js for carousel functionality.</p>
+							<div class="works__card-badges">
+								<span class="works__card-badge badge">RWD</span>
+								<span class="works__card-badge badge">Wordpress</span>
+								<span class="works__card-badge badge">JavaScript</span>
+							</div>
+						</div>
+						<div class="works__card">
+							<div class="works__card-wrapper">
+								<a href="https://vanbasx.github.io/Portfolio/" aria-label="View demo"><picture><source srcset="./img/content/portfolio.webp" type="image/webp"><img src="./img/content/portfolio.jpg" alt="ivan bas portfolio" class="works__card-img"></picture></a>
+								<div class="works__buttons">
+									<a href="https://vanbasx.github.io/Portfolio/" class="works__button-demo btn-empty" aria-label="View demo">Demo</a>
+									<a href="https://github.com/vanbasx/Portfolio" class="works__button-code link" aria-label="View code">View code</a>
+								</div>
+							</div>
+							<h4 class="works__card-name">Portfolio</h4>
+							<p class="works__card-description">This repository contains the source code for the Portfolio Web Site, a responsive web page built using Gulp, Webpack, HTML, CSS (with SCSS) and JavaScript.</p>
+							<div class="works__card-badges">
+								<span class="works__card-badge badge">RWD</span>
+								<span class="works__card-badge badge">Wordpress</span>
+								<span class="works__card-badge badge">JavaScript</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contact" id="contact">
+				<div class="contact__container">
+					<div class="contact__info">
+						<h4 class="contact__info-title title">Let’s talk</h4>
+						<p class="contact__info-subtitle subtitle">I regularly post my thoughts on twitter, and also write some articles on Medium. Otherwise, my linkedin is always welcoming.</p>
+						<div class="contact__icons">
+							<a href="https://github.com/vanbasx" class="contact__icons-link" aria-label="github link"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M18 3.37012C9.7125 3.37012 3 10.0826 3 18.3701C3 25.0076 7.29375 30.6139 13.2563 32.6014C14.0063 32.7326 14.2875 32.2826 14.2875 31.8889C14.2875 31.5326 14.2688 30.3514 14.2688 29.0951C10.5 29.7889 9.525 28.1764 9.225 27.3326C9.05625 26.9014 8.325 25.5701 7.6875 25.2139C7.1625 24.9326 6.4125 24.2389 7.66875 24.2201C8.85 24.2014 9.69375 25.3076 9.975 25.7576C11.325 28.0264 13.4813 27.3889 14.3438 26.9951C14.475 26.0201 14.8688 25.3639 15.3 24.9889C11.9625 24.6139 8.475 23.3201 8.475 17.5826C8.475 15.9514 9.05625 14.6014 10.0125 13.5514C9.8625 13.1764 9.3375 11.6389 10.1625 9.57637C10.1625 9.57637 11.4188 9.18262 14.2875 11.1139C15.4875 10.7764 16.7625 10.6076 18.0375 10.6076C19.3125 10.6076 20.5875 10.7764 21.7875 11.1139C24.6563 9.16387 25.9125 9.57637 25.9125 9.57637C26.7375 11.6389 26.2125 13.1764 26.0625 13.5514C27.0188 14.6014 27.6 15.9326 27.6 17.5826C27.6 23.3389 24.0938 24.6139 20.7563 24.9889C21.3 25.4576 21.7688 26.3576 21.7688 27.7639C21.7688 29.7701 21.75 31.3826 21.75 31.8889C21.75 32.2826 22.0313 32.7514 22.7813 32.6014C25.759 31.5961 28.3466 29.6823 30.1797 27.1294C32.0128 24.5765 32.9992 21.513 33 18.3701C33 10.0826 26.2875 3.37012 18 3.37012Z" fill="white" />
+								</svg></a>
+							<a href="https://t.me/kvartira_helper" class="contact__icons-link" aria-label="telegram link"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M33 18C33 26.2843 26.2843 33 18 33C9.71573 33 3 26.2843 3 18C3 9.71573 9.71573 3 18 3C26.2843 3 33 9.71573 33 18ZM18.5375 14.0737C17.0785 14.6805 14.1626 15.9365 9.78984 17.8417C9.07976 18.124 8.70779 18.4003 8.67393 18.6704C8.6167 19.1269 9.18836 19.3066 9.96681 19.5514C10.0727 19.5847 10.1824 19.6192 10.2949 19.6558C11.0608 19.9047 12.091 20.196 12.6266 20.2076C13.1124 20.2181 13.6546 20.0178 14.2533 19.6067C18.3389 16.8488 20.4479 15.4548 20.5804 15.4247C20.6738 15.4035 20.8032 15.3769 20.8909 15.4548C20.9786 15.5328 20.97 15.6804 20.9607 15.72C20.9041 15.9614 18.6601 18.0476 17.4989 19.1272C17.1369 19.4638 16.8801 19.7025 16.8276 19.7571C16.71 19.8792 16.5901 19.9947 16.4749 20.1058C15.7634 20.7917 15.2299 21.3061 16.5045 22.146C17.117 22.5497 17.6072 22.8834 18.0961 23.2164C18.6302 23.5801 19.1628 23.9429 19.852 24.3946C20.0276 24.5097 20.1953 24.6293 20.3586 24.7457C20.9801 25.1887 21.5384 25.5868 22.2282 25.5233C22.629 25.4864 23.043 25.1095 23.2533 23.9855C23.7502 21.329 24.727 15.5731 24.9527 13.2012C24.9725 12.9934 24.9476 12.7275 24.9277 12.6107C24.9077 12.494 24.8659 12.3276 24.7142 12.2045C24.5345 12.0587 24.257 12.0279 24.1329 12.0301C23.5687 12.0401 22.7032 12.341 18.5375 14.0737Z" fill="white" />
+								</svg></a>
+							<a href="https://www.linkedin.com/in/ivan-bas-5052a3280/" class="contact__icons-link" aria-label="linkedin link"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+									<path d="M31.5 6.48529V29.5147C31.5 30.0412 31.2908 30.5462 30.9185 30.9185C30.5462 31.2908 30.0412 31.5 29.5147 31.5H6.48529C5.95876 31.5 5.45379 31.2908 5.08148 30.9185C4.70916 30.5462 4.5 30.0412 4.5 29.5147V6.48529C4.5 5.95876 4.70916 5.45379 5.08148 5.08148C5.45379 4.70916 5.95876 4.5 6.48529 4.5H29.5147C30.0412 4.5 30.5462 4.70916 30.9185 5.08148C31.2908 5.45379 31.5 5.95876 31.5 6.48529V6.48529ZM12.4412 14.8235H8.47059V27.5294H12.4412V14.8235ZM12.7985 10.4559C12.8006 10.1555 12.7435 9.85773 12.6305 9.57945C12.5175 9.30116 12.3508 9.04787 12.1399 8.83402C11.929 8.62017 11.6781 8.44996 11.4014 8.3331C11.1247 8.21624 10.8277 8.15502 10.5274 8.15294H10.4559C9.8451 8.15294 9.25934 8.39557 8.82746 8.82746C8.39557 9.25934 8.15294 9.8451 8.15294 10.4559C8.15294 11.0667 8.39557 11.6524 8.82746 12.0843C9.25934 12.5162 9.8451 12.7588 10.4559 12.7588V12.7588C10.7562 12.7662 11.0551 12.7143 11.3354 12.6062C11.6157 12.498 11.872 12.3357 12.0896 12.1285C12.3071 11.9212 12.4817 11.6732 12.6033 11.3985C12.725 11.1237 12.7913 10.8277 12.7985 10.5274V10.4559ZM27.5294 19.8106C27.5294 15.9909 25.0994 14.5059 22.6853 14.5059C21.8949 14.4663 21.1079 14.6347 20.4028 14.9942C19.6977 15.3537 19.0993 15.8917 18.6671 16.5547H18.5559V14.8235H14.8235V27.5294H18.7941V20.7715C18.7367 20.0793 18.9547 19.3925 19.4008 18.8602C19.8469 18.3279 20.485 17.9931 21.1765 17.9285H21.3274C22.59 17.9285 23.5271 18.7226 23.5271 20.7238V27.5294H27.4976L27.5294 19.8106Z" fill="white" />
+								</svg></a>
+							<a href="https://api.whatsapp.com/send?phone=48534442455" class="contact__icons-link" aria-label="whatsapp link"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+									<path d="M18.0566 4.93555C10.6464 4.93555 4.61584 10.744 4.61323 17.8825C4.61148 20.1653 5.23161 22.3932 6.40742 24.3555L4.5 31.0646L11.6271 29.2643C13.6096 30.3013 15.814 30.8423 18.0514 30.8407H18.0566C25.4668 30.8407 31.4974 25.0314 31.5 17.8929C31.5017 14.4352 30.1047 11.1804 27.5658 8.73384C25.0278 6.28642 21.6528 4.93642 18.0566 4.93555ZM18.0566 28.6537H18.0523C16.0473 28.6537 14.0806 28.1346 12.3648 27.1539L11.9555 26.9205L7.72781 27.9883L8.85658 24.0167L8.59094 23.61C7.47514 21.9082 6.88117 19.9174 6.8821 17.8825C6.88471 11.9486 11.898 7.12255 18.061 7.12255C21.0449 7.12342 23.8503 8.24435 25.9606 10.2781C28.071 12.3118 29.232 15.0161 29.2303 17.8921C29.2276 23.826 24.2152 28.6537 18.0557 28.6537H18.0566ZM24.1856 20.5929C23.8494 20.4318 22.1981 19.6488 21.8897 19.5399C21.5823 19.4328 21.3585 19.3771 21.1346 19.7011C20.9116 20.0251 20.2671 20.7541 20.072 20.9692C19.8752 21.1852 19.6792 21.2113 19.343 21.0502C19.0068 20.8882 17.9242 20.5468 16.6422 19.4441C15.6432 18.5871 14.969 17.528 14.7731 17.2031C14.5771 16.88 14.7522 16.7049 14.9203 16.5438C15.0709 16.4001 15.2565 16.1667 15.4237 15.9777C15.5909 15.7887 15.6466 15.6537 15.7599 15.4377C15.8714 15.2225 15.8156 15.0327 15.7311 14.8715C15.6466 14.7087 14.976 13.1165 14.6947 12.4694C14.4229 11.8388 14.146 11.9233 13.9395 11.9129C13.7436 11.9042 13.5206 11.9015 13.295 11.9015C13.0729 11.9015 12.708 11.9825 12.3997 12.3065C12.0922 12.6305 11.2239 13.4127 11.2239 15.0048C11.2239 16.5978 12.4275 18.1359 12.5956 18.3519C12.7637 18.5671 14.9647 21.8358 18.3345 23.2381C19.1357 23.5699 19.7611 23.7694 20.2497 23.9192C21.0545 24.1656 21.787 24.1299 22.3653 24.0472C23.0098 23.954 24.3528 23.2651 24.6315 22.5099C24.912 21.7548 24.912 21.1068 24.8284 20.9718C24.7465 20.8368 24.5218 20.7558 24.1856 20.5929V20.5929Z" fill="white" />
+								</svg></a>
+						</div>
+					</div>
+					<div class="contact__image-wrapper">
+						<img class="contact__image-img" src="./img/icons/contact.svg" alt="content img">
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__copyright">© 2024 Ivan Bas</div>
+				<a href="#" data-goto="#about" data-goto-top="80" class="footer__back-btn link">Back up<svg class="arrow" width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M6.75 1C6.75 0.585786 6.41421 0.25 6 0.25C5.58579 0.25 5.25 0.585786 5.25 1H6.75ZM5.46967 15.5303C5.76256 15.8232 6.23744 15.8232 6.53033 15.5303L11.3033 10.7574C11.5962 10.4645 11.5962 9.98959 11.3033 9.6967C11.0104 9.40381 10.5355 9.40381 10.2426 9.6967L6 13.9393L1.75736 9.6967C1.46447 9.40381 0.989592 9.40381 0.696699 9.6967C0.403806 9.98959 0.403806 10.4645 0.696699 10.7574L5.46967 15.5303ZM5.25 1L5.25 15H6.75L6.75 1H5.25Z" fill="white" />
+					</svg></a>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240224213042"></script>
 </body>
+
 </html>

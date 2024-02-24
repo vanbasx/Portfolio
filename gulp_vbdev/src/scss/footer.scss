@@ -1,0 +1,29 @@
+//====================================================================================================
+
+.footer {
+   padding: clamp(1.25rem, 0.662rem + 2.94vw, 2.813rem) 0;
+   // .footer__container
+   &__container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+   // .footer__copyright
+   &__copyright {
+     color: var(--text-color);
+     font-size: clamp(0.875rem, 0.804rem + 0.35vw, 1.063rem);
+     font-style: normal;
+     font-weight: 600;
+     line-height: 22px; /* 129.412% */
+     letter-spacing: 0.073px;
+   }
+   // .footer__back
+   &__back-btn {
+     font-size: clamp(0.875rem, 0.804rem + 0.35vw, 1.063rem);
+     svg {
+       transform: rotate(180deg);
+     }
+   }
+ }
+
+//====================================================================================================
